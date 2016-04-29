@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+Q2A_VERSION="1.7.4"
+Q2A_ARCHIVE_FILENAME="question2answer-${Q2A_VERSION}.zip"
+Q2A_ARCHIVE_URL="https://github.com/q2a/question2answer/releases/download/v${Q2A_VERSION}/${Q2A_ARCHIVE_FILENAME}"
+Q2A_EXTRACT_DIR="question2answer-${Q2A_VERSION}"
+
+echo "Downloading Q2A archive..."
+rm -f $Q2A_ARCHIVE_FILENAME
+rm -rf $Q2A_EXTRACT_DIR
+wget -q $Q2A_ARCHIVE_URL
+
+echo "Extracting Q2A archive..."
+unzip -q $Q2A_ARCHIVE_FILENAME
+cp -r $Q2A_EXTRACT_DIR/qa-content $Q2A_EXTRACT_DIR/qa-external-example $Q2A_EXTRACT_DIR/qa-include $Q2A_EXTRACT_DIR/qa-lang $Q2A_EXTRACT_DIR/qa-plugin $Q2A_EXTRACT_DIR/qa-theme $Q2A_EXTRACT_DIR/.htaccess $Q2A_EXTRACT_DIR/index.php .
+
+rm -rf $Q2A_EXTRACT_DIR
+rm -f $Q2A_ARCHIVE_FILENAME

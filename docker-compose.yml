@@ -1,0 +1,18 @@
+version: '2'
+services:
+  web:
+    build:
+      context: docker
+      dockerfile: web
+    command: php -S 0.0.0.0:80 -t /code
+    ports:
+      - "80:80"
+    depends_on:
+      - mysql
+    volumes:
+      - .:/code
+  mysql:
+    image: mariadb:10.1
+    environment:
+      MYSQL_DATABASE: questions
+      MYSQL_ROOT_PASSWORD: leurfairepeur
