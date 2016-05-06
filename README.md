@@ -34,3 +34,21 @@ $ docker-machine ip
 Open [http://questions.nuitdebout.dev/](http://questions.nuitdebout.dev/) in your web browser, and follow the installation instructions.
 
 Go to **Admin > General**, and choose the **Donut** theme.
+
+
+### Styles
+
+#### Install
+```sh
+npm install
+gulp styles # will compile to donut.css and donut.min.css
+```
+
+#### Develop
+**Please write your custom CSS in `qa-theme/Donut-theme/less/nuitdebout.less` . This file's rules will override the default Donut theme.**
+
+For automatic rebuild :
+```
+gulp watch
+```
+
