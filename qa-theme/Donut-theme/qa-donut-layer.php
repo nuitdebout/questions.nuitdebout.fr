@@ -77,9 +77,10 @@
             $this->donut_resources( $css_paths, 'css' );
 
             if( qa_opt('donut_use_local_font') ){
+                // TODO copy Roboto font locally
                 $this->donut_resources( array( 'css/open-sans.css?' . DONUT_THEME_VERSION) );
             } else {
-                $this->donut_resources( array( 'https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic' ) , 'css' , true );
+                $this->donut_resources( array( 'https://fonts.googleapis.com/css?family=Roboto:400,700,700italic,400italic' ) , 'css' , true );
             }
         }
 
