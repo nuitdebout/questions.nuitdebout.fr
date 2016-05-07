@@ -19,5 +19,5 @@ gulp.task('styles', function () {
 
 
 gulp.task('watch', function() {
-    gulp.watch('assets/scss/**.*scss', ['styles']);
+    gulp.watch(['qa-theme/Donut-theme/less/**/*'], ['styles']);
 });
