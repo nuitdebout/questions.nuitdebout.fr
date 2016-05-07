@@ -2590,6 +2590,7 @@ header#nav-header {
 .qa-q-view-tag-item {
   display: inline-block;
   margin-right: 5px;
+  font-size: 12px;
 }
 
 .qa-q-view-tags {
