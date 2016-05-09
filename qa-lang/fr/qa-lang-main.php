@@ -216,7 +216,7 @@
 		'x_days' => '^ jours',
 		'x_disliked' => '^ n\'aiment pas',
 		'x_flags' => '^ signalements',
-		'x_hours' => '^ heurs',
+		'x_hours' => '^ heures',
 		'x_liked' => '^ aiment',
 		'x_minutes' => '^ minutes',
 		'x_months' => '^ mois',
