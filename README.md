@@ -1,6 +1,6 @@
 # #NuitDebout : Questions
 
-[Questions2Answer](http://www.question2answer.org/) + [Donut Theme](https://github.com/amiyasahu/Donut) powering [questions.nuitdebout.fr](questions.nuitdebout.fr)
+[Questions2Answer](http://www.question2answer.org/) + [Donut Theme](https://github.com/amiyasahu/Donut) powering [questions.nuitdebout.fr](http://questions.nuitdebout.fr)
 
 ## Development environment with Docker
 
