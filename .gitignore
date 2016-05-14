@@ -10,6 +10,7 @@ qa-plugin/example-page/
 qa-plugin/facebook-login/
 qa-plugin/mouseover-layer/
 qa-plugin/opensearch-support/
+qa-plugin/q2a-edit-history/
 qa-plugin/recaptcha-captcha/
 qa-plugin/tag-cloud-widget/
 qa-plugin/wysiwyg-editor/
