@@ -4759,6 +4759,8 @@ body {
 
 .qa-body-wrapper {
   background: white;
+  padding: 15px;
+  border-radius: 3px;
 }
 
 .qa-sidebar,
@@ -4771,4 +4773,8 @@ body {
 
 #ag-overlay a {
   color: white;
+}
+
+.donut-masthead .page-title {
+  border: none;
 }
