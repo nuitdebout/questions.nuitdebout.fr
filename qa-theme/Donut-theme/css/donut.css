@@ -4703,5 +4703,68 @@ a.qa-browse-cat-link:visited {
   padding: 20px 0;
 }
 /*
-    Write custom style for nuitdebout here - it will override the base Doneut theme
+    Write custom style for nuitdebout here - it will override the base Donut theme
 */
+
+@media only screen and (min-width: 767px) {
+  .navbar-nav > li {
+    margin-left: 20px;
+  }
+
+  .navbar-nav > li > a {
+    font-size: 1.45rem;
+  }
+
+  .navbar-nav > li > a:first-letter {
+    box-shadow: 0 3px 0 -1px #0ab8d1, 0 3px 0 0 #0ab8d1, inset 0 -1px 0 0 #0ab8d1;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .navbar-nav > li > a,
+  .navbar-nav > li > a:hover,
+  .navbar-nav > li > a:active,
+  .navbar-nav > li > a:focus {
+    font-size: 1.6rem;
+  }
+}
+
+.logo-wrapper {
+  width: 0;
+}
+
+.donut-navigation {
+  width: 0;
+}
+
+.navbar.navbar-static-top {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.09);
+}
+
+.donut-masthead {
+  color: #282828;
+}
+
+a {
+  color: #494849;
+}
+
+body {
+  background: #E9EBEE;
+}
+
+.header-banner > hr {
+  display: none;
+}
+
+.qa-body-wrapper {
+  background: white;
+}
+
+.qa-sidebar,
+.qa-feed {
+  background: none;
+  color: #333;
+  padding: 0;
+  border: none;
+}
