@@ -4768,3 +4768,7 @@ body {
   padding: 0;
   border: none;
 }
+
+#ag-overlay a {
+  color: white;
+}
