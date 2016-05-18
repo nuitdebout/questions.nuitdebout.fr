@@ -4792,3 +4792,20 @@ body {
 .page-title {
   padding: 24px 0 0 0;
 }
+
+.qa-widget-side h2 {
+  font-size: 1.7rem;
+  padding: 0 !important;
+}
+
+.qa-widget-side.qa-widget-side-high {
+  border: none;
+}
+
+.qa-widget-side > div {
+  padding: 0 !important;
+}
+
+div.qa-activity-count {
+  padding: 5px !important;
+}
