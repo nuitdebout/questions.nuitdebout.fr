@@ -1,0 +1,10 @@
+{
+	"name": "he No List",
+	"description": "The No List",
+	"version": "1.0",
+	"date": "2016-05-06",
+	"author": "mex.zktk@gmail.com",
+	"author_uri": "http://questions.nuitdebout.fr",
+	"license": "GPLv2",
+	"min_q2a": "1.5"
+}
