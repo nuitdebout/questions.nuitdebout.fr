@@ -218,6 +218,10 @@
 
             $this->output( '<main class="donut-masthead">' );
 
+            if ( $this->is_home()) {
+                $this->header_custom();
+            }
+
             $this->output( '<div class="container">' );
             $this->notices();
             $this->output( '</div>' );
@@ -303,7 +307,6 @@
         {
             $this->output( '<div class="qa-header clearfix">' );
             $this->header_clear();
-            $this->header_custom();
             $this->output( '</div> <!-- END qa-header -->', '' );
             $this->output( '<div class="qa-main-shadow clearfix">', '' );
             $this->output( '<div class="qa-main-wrapper clearfix row">', '' );
