@@ -37,7 +37,7 @@ class qa_edemocratiedebout
 
 		$start = qa_get_start();
 		$userid = qa_get_logged_in_userid();
-		$categoryslugs = ['catégorie-e-democratie-pour-nd'];
+		$categoryslugs = ['e-democratie-pour-nd'];
 		$selectsort = 'netvotes';
 
 		list($questions, $categories, $categoryid) = qa_db_select_with_pending(
