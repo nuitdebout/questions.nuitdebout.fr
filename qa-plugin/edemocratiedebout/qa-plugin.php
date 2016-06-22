@@ -18,5 +18,5 @@ if (!defined('QA_VERSION')) { // don't allow this page to be requested directly 
 }
 
 
-qa_register_plugin_module('page', 'qa-hackatondemocratie.php', 'qa_hackatondemocratie', 'Hackaton Democratie');
-qa_register_plugin_phrases('qa-hackatondemocratie-lang-*.php', 'HackatonDemocratie');
+qa_register_plugin_module('page', 'qa-edemocratiedebout.php', 'qa_edemocratiedebout', 'E Democratie Debout');
+qa_register_plugin_phrases('qa-edemocratiedebout-lang-*.php', 'edemocratiedebout');
