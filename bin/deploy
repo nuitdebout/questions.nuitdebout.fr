@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+scp -r qa-plugin/69mars nuitdebout.fr:/var/www/questions/qa-plugin/
+scp -r qa-plugin/69mars-ask nuitdebout.fr:/var/www/questions/qa-plugin/
+scp -r qa-plugin/75mars nuitdebout.fr:/var/www/questions/qa-plugin/
+scp -r qa-plugin/the-no-list nuitdebout.fr:/var/www/questions/qa-plugin/
+scp -r qa-plugin/edemocratiedebout nuitdebout.fr:/var/www/questions/qa-plugin/
+
+rsync --stats -t -P --recursive qa-theme/Donut-theme/ nuitdebout.fr:/var/www/questions/qa-theme/Donut-theme/
+rsync --stats -t -P --recursive qa-lang/fr/ nuitdebout.fr:/var/www/questions/qa-lang/fr/
